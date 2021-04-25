@@ -13,7 +13,7 @@ var heart = 5, h = [],ht,heartGroup;
 var kills=0;
 var c1,c2,c3;
 //c4,c5;
-var desertbg, dtreei, dtree1, dtree2, dtree3;
+var dtreei, dtree1, dtree2, dtree3;
 var mangoi,mango, apple, orange, banana, applei, orangei;
 var fruitl = 0;
 var apple2, orange2, mango2, banana2;
@@ -37,7 +37,6 @@ function preload(){
   startbg = loadImage("start.jpg");
   seabg = loadImage("seabg.jpg"); 
   bgJungle = loadImage("toptree.png");
-  desertbg = loadImage("desert.jpg");
 
   heartimg = loadImage("life.png");
   crocimg = loadImage("crocodile.png");
